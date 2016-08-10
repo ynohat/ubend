@@ -2,6 +2,10 @@
   "name": "ubend",
   "version": "0.0.1",
   "description": "A NodeJS transform stream wrapping a pipe",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ynohat/ubend.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "mocha -r should"

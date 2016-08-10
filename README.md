@@ -39,6 +39,12 @@ This is nice because each intermediate stream can be tested and reused separatel
 
 What I really want is to be able to treat the entire pipeline as a Duplex stream with sane error handling built in.
 
+## Installing
+
+```bash
+npm install --save ubend
+```
+
 ## Usage
 
 ```javascript

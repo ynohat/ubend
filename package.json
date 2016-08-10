@@ -1,6 +1,6 @@
 {
   "name": "ubend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A NodeJS transform stream wrapping a pipe",
   "repository": {
     "type": "git",

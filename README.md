@@ -1,5 +1,7 @@
 # Ubend
 
+[![Build Status](https://travis-ci.org/ynohat/ubend.svg?branch=master)](https://travis-ci.org/ynohat/ubend)
+
 Wraps a NodeJS stream pipe chain in a Duplex stream.
 
 Ubend is a light wrapper around [pump](https://github.com/mafintosh/pump/).

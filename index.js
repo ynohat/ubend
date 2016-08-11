@@ -31,7 +31,6 @@ class Ubend extends stream.Transform {
     }
 
     end(chunk) {
-        super.end(chunk);
         this._input.end(chunk);
     }
 
@@ -51,6 +50,7 @@ class Ubend extends stream.Transform {
             this.emit("error", err);
         }
         this.push(null);
+        this.emit("finish")
     }
 }
 
